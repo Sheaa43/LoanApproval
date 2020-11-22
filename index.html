@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Approval</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+ <h1>Will Your Loan Be Approved?</h1>
+    <form id="form">
+        <label for="salary">Please Enter Salary*</label>
+        <input name="salary" type="number" id="salary">
+        <br>
+        <label for="creditScore">Please Enter Your FICO Credit Score*</label>
+        <input name="creditScore" type="number" id="creditScore">
+        <br>
+        <label for="monthsAtJob">Please Enter The Amount Of Months You Have Worked At Your Job*</label>
+        <input name="monthsAtJob" type="number" id="monthsAtJob">
+        <br>
+        <i>* indicates a required field</i>
+        <br>
+        <br>
+        <button id="calculateIfApproved">Calculate</button>
+    </form>
+    <p id="message"></p>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

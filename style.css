@@ -1,0 +1,27 @@
+#container {
+    border-style:dotted;
+    border-color: green;
+    position: fixed;
+    padding: 2px;
+}
+
+h1 {
+    color: blue;
+}
+
+button {
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 14px 40px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#message {
+    color: purple;
+    font-size: 45px;
+}
